@@ -4,9 +4,6 @@
 # - 7 -> да
 # - 1 -> нет
 
-
-
-
 day_number = int(input())
 if day_number <= 5 > 0:
     print('нет')
@@ -14,4 +11,3 @@ elif day_number < 7 > 6:
     print ('да')
 elif day_number > 7: 
     print('are you seriously?!?')
-
