@@ -5,8 +5,8 @@
 # - 2 -> 10
 
 dig = ''
-num = int(input('Введите число:\n'))
+num = int(input('Input number: '))
 while num != 0:
-    s = str(num % 2) + dig
+    dig = str(num % 2) + dig
     num //=2
 print(dig)
